@@ -1,4 +1,6 @@
-const API_BASE = '';
+// Set VITE_API_URL in your .env file to point at a different backend.
+// Leave it empty (or unset) when the frontend and backend share the same origin.
+const API_BASE = import.meta.env.VITE_API_URL || '';
 
 const endpoints = {
   register: '/api/auth/register',
