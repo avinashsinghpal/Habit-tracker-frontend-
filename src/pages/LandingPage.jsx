@@ -70,7 +70,7 @@ export function LandingPage() {
           <div className="hero-eyebrow">
             <span className="label-tag">
               <span className="label-tag-dot" />
-              Premium Habit Tracker
+              Daily Habit Tracker
             </span>
           </div>
 
